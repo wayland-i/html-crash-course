@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form>
+            <label for="username">Username</label>
+            <input 
+                id="username" 
+                type="text" 
+                placeholder="type here..."
+                name="username"
+                required/>
+
+            <label for="password">Password</label>
+            <input 
+                id="password" 
+                type="password" 
+                placeholder="type here..." 
+                name="password"
+                minlength="6"/>
+
+            <input type="date" name="date" id="date">
+            
+            <fieldset>
+                <legend>Choose your animal</legend>
+                
+                <label for="dog">Dog</label>
+                <input type="radio" name="animal" value="dog" id="dog">
+
+                <label for="dog">Cat</label>
+                <input type="radio" name="animal" value="cat" id="cat">
+
+                <label for="dog">Horse</label>
+                <input type="radio" name="animal" value="horse" id="horse">
+            </fieldset>
+
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
